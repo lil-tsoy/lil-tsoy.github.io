@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+    <title>Responsive</title>
+    <style>
+
+    .nav {
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      align-items: center;
+    }
+body{
+   background-image: url(ddd.jpg);
+}
+
+    header {
+      height: 70vh;
+      background-image: url(logo.png);
+      background-position: center;
+      background-size: cover;
+    }
+
+    * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+    .brand {
+      display:inline-block;
+      text-decoration: none;
+      font-size: 5vh;
+      color: white;
+      margin-top: 0;
+      margin-left: 1vw;
+      margin-bottom: 0;
+      margin-right: 0;
+    }
+
+    .ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 3vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+
+    .li {
+      text-decoration: none;
+      color: white;
+      font-size: 3vh;
+      text-align: center;
+      margin-left: 2vw;
+    }
+
+    .header {
+      display: inline-block;
+      color: white;
+      font-size: 7vh;
+      margin: 15vh 0 0 6vh;
+    }
+
+    a:hover {
+      color:green;
+    }
+
+    .section {
+      margin: 5vh 10vh 5vh 10vh;
+      text-align: center;
+      color:white;
+    }
+
+    .description {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 5vh;
+    }
+
+
+    .description1 {
+      height: 55vh;
+      background-color: white;
+      width: 30vw;
+      margin-left: 10vh;
+      margin-bottom: 2vh;
+      background-image: url(tony.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .description2 {
+      height: 55vh;
+      background-color: white;
+      width: 30vw;
+      margin-right: 10vh;
+      margin-bottom: 2vh;
+      background-image: url(man.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+    .p {
+      color:white;
+      text-align: center;
+      font-size: 3vh;
+    }
+
+    .bottom {
+
+      height: 5vh;
+      background-color: darkgrey;
+      text-align: center;
+    }
+
+    .a {
+      text-decoration: none;
+      color:white;
+      margin-top:1.25vh;
+      display:inline-block;
+
+  }
+
+    .footer {
+      height: 30vh;
+      background-color: black;
+      text-align: center;
+    }
+
+    .p2 {
+      display: inline-block;
+      margin-top: 15vh;
+      color: grey;
+    }
+
+    @media screen and (max-width: 768px) {
+      .description {
+        flex-direction: column;
+      }
+
+      .description1 {
+        margin-bottom: 20px;
+        margin-left: 0;
+      }
+
+      .description2 {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+    }
+</style>
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="brand" href="#"> Favourite Marvel`s movie </a>
+      <ul class="ul">
+        <li>
+          <a class="li" href="#"> About </a>
+        </li>
+        <li>
+          <a class="li" href=""> Watch </a>
+        </li>
+        <li>
+          <a class="li" href="#"> Read </a>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1 class="header">Iron Man</h1>
+    </header>
+     <div class="section">
+       <h1>Сюжет</h1>
+       <br>
+       <p>Історія, яку нам розповідає фільм «Тоні Старк - Залізна людина» (зміст представлено нижче), трохи відрізняється від коміксів. За сюжетом головний герой - мультимільйонер і філантроп, який проводив безтурботно своє життя. Великі гроші йому приносять поставки різноманітного озброєння на потреби армії. В один прекрасний день, після демонстрації нового проекту, Тоні Старк був захоплений терористами з Афганістану, які вимагають створити для них ракету «Єрихон». Під час викрадення головний герой отримав важке поранення в груди. Незважаючи на те що Старк витягнув найбільші уламки, дрібна шрапнель засіла в його тілі і прагне підібратися до серця. Саме тому головний герой вставляє в груди електромагніт. Тоні усвідомлює, що навіть якщо він створить ракету, терористи не відпустять його. Так що замість «Єрихону» герой приймається за виробництво важкої броні, яка допомагає вибратися з полону.
+
+Повернувшись додому, Старк відмовляється від виробництва будь-якої зброї і весь свій час витрачає на створення більш досконалого костюма. За сюжетом головний герой чекає ще не одна сутичка з терористами. Йому належить захистити невинних, вступити в протистояння з ВВС США і розплутати змову у власній компанії. Також Залізний Людина (Тоні Старк) познайомиться з таємничою групою Щ.І.Т, яка не раз ще зустрінеться герою в його майбутніх пригоди.</p>
+     </div>
+     <div class="description">
+     <div>
+      <div class="description1"></div>
+        <p class="p">Тоні Старк</p>
+      </div>
+      <div>
+     <div class="description2"></div>
+     <p class="p">Залізна Людина</p>
+     </div>
+      </div>
+      <div class="bottom">
+        <a class="a" href="index.html"> Повернутись на головну сторінку</a>
+      </div>
+      <footer class="footer">
+          <p class="p2">2020 Nedogon Maksym NAU FCCSE УБ-275</p>
+      </footer>
+  </body>
+</html>
